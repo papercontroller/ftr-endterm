@@ -1,0 +1,2380 @@
+{
+  "experiments": {
+    "E1": {
+      "title": "Service instance failure",
+      "targets": {
+        "midterm": {
+          "repetitions": 5,
+          "runs": [
+            {
+              "total": 450,
+              "success": 450,
+              "failed": 0,
+              "error_rate_pct": 0.0,
+              "availability_pct": 100.0,
+              "latency_avg_ms": 86.4,
+              "latency_p95_ms": 25.0,
+              "latency_max_ms": 2055.7,
+              "status_codes": {
+                "200": 450
+              },
+              "crash_output": "",
+              "failure_window": {
+                "total": 45,
+                "success": 45,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 682.7,
+                "latency_p95_ms": 2024.5,
+                "latency_max_ms": 2055.7,
+                "status_codes": {
+                  "200": 45
+                }
+              },
+              "detection_time_sec": null,
+              "recovery_time_sec": null,
+              "victim_state_after": "exited restarts=0",
+              "alerts": null,
+              "rep": 1
+            },
+            {
+              "total": 450,
+              "success": 450,
+              "failed": 0,
+              "error_rate_pct": 0.0,
+              "availability_pct": 100.0,
+              "latency_avg_ms": 85.8,
+              "latency_p95_ms": 29.0,
+              "latency_max_ms": 2019.2,
+              "status_codes": {
+                "200": 450
+              },
+              "crash_output": "",
+              "failure_window": {
+                "total": 45,
+                "success": 45,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 680.2,
+                "latency_p95_ms": 2016.2,
+                "latency_max_ms": 2019.2,
+                "status_codes": {
+                  "200": 45
+                }
+              },
+              "detection_time_sec": null,
+              "recovery_time_sec": null,
+              "victim_state_after": "exited restarts=0",
+              "alerts": null,
+              "rep": 2
+            },
+            {
+              "total": 450,
+              "success": 450,
+              "failed": 0,
+              "error_rate_pct": 0.0,
+              "availability_pct": 100.0,
+              "latency_avg_ms": 90.1,
+              "latency_p95_ms": 28.0,
+              "latency_max_ms": 2025.1,
+              "status_codes": {
+                "200": 450
+              },
+              "crash_output": "",
+              "failure_window": {
+                "total": 45,
+                "success": 45,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 726.8,
+                "latency_p95_ms": 2023.4,
+                "latency_max_ms": 2025.1,
+                "status_codes": {
+                  "200": 45
+                }
+              },
+              "detection_time_sec": null,
+              "recovery_time_sec": null,
+              "victim_state_after": "exited restarts=0",
+              "alerts": null,
+              "rep": 3
+            },
+            {
+              "total": 450,
+              "success": 450,
+              "failed": 0,
+              "error_rate_pct": 0.0,
+              "availability_pct": 100.0,
+              "latency_avg_ms": 90.7,
+              "latency_p95_ms": 25.2,
+              "latency_max_ms": 2026.0,
+              "status_codes": {
+                "200": 450
+              },
+              "crash_output": "",
+              "failure_window": {
+                "total": 45,
+                "success": 45,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 726.9,
+                "latency_p95_ms": 2025.1,
+                "latency_max_ms": 2026.0,
+                "status_codes": {
+                  "200": 45
+                }
+              },
+              "detection_time_sec": null,
+              "recovery_time_sec": null,
+              "victim_state_after": "exited restarts=0",
+              "alerts": null,
+              "rep": 4
+            },
+            {
+              "total": 450,
+              "success": 450,
+              "failed": 0,
+              "error_rate_pct": 0.0,
+              "availability_pct": 100.0,
+              "latency_avg_ms": 90.1,
+              "latency_p95_ms": 24.8,
+              "latency_max_ms": 2021.1,
+              "status_codes": {
+                "200": 450
+              },
+              "crash_output": "",
+              "failure_window": {
+                "total": 45,
+                "success": 45,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 724.0,
+                "latency_p95_ms": 2019.6,
+                "latency_max_ms": 2021.1,
+                "status_codes": {
+                  "200": 45
+                }
+              },
+              "detection_time_sec": null,
+              "recovery_time_sec": null,
+              "victim_state_after": "exited restarts=0",
+              "alerts": null,
+              "rep": 5
+            }
+          ]
+        },
+        "endterm": {
+          "repetitions": 5,
+          "runs": [
+            {
+              "total": 450,
+              "success": 450,
+              "failed": 0,
+              "error_rate_pct": 0.0,
+              "availability_pct": 100.0,
+              "latency_avg_ms": 28.3,
+              "latency_p95_ms": 23.4,
+              "latency_max_ms": 1119.3,
+              "status_codes": {
+                "200": 450
+              },
+              "crash_output": "",
+              "failure_window": {
+                "total": 45,
+                "success": 45,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 202.2,
+                "latency_p95_ms": 1083.3,
+                "latency_max_ms": 1119.3,
+                "status_codes": {
+                  "200": 45
+                }
+              },
+              "detection_time_sec": 1.31,
+              "recovery_time_sec": 4.48,
+              "victim_state_after": "running restarts=1",
+              "alerts": [],
+              "rep": 1
+            },
+            {
+              "total": 450,
+              "success": 450,
+              "failed": 0,
+              "error_rate_pct": 0.0,
+              "availability_pct": 100.0,
+              "latency_avg_ms": 7.4,
+              "latency_p95_ms": 20.1,
+              "latency_max_ms": 108.6,
+              "status_codes": {
+                "200": 450
+              },
+              "crash_output": "",
+              "failure_window": {
+                "total": 45,
+                "success": 45,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 10.5,
+                "latency_p95_ms": 20.2,
+                "latency_max_ms": 20.4,
+                "status_codes": {
+                  "200": 45
+                }
+              },
+              "detection_time_sec": 0.26,
+              "recovery_time_sec": 1.17,
+              "victim_state_after": "running restarts=2",
+              "alerts": [],
+              "rep": 2
+            },
+            {
+              "total": 450,
+              "success": 450,
+              "failed": 0,
+              "error_rate_pct": 0.0,
+              "availability_pct": 100.0,
+              "latency_avg_ms": 9.6,
+              "latency_p95_ms": 19.8,
+              "latency_max_ms": 132.6,
+              "status_codes": {
+                "200": 450
+              },
+              "crash_output": "",
+              "failure_window": {
+                "total": 45,
+                "success": 45,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 14.5,
+                "latency_p95_ms": 32.1,
+                "latency_max_ms": 97.8,
+                "status_codes": {
+                  "200": 45
+                }
+              },
+              "detection_time_sec": 0.33,
+              "recovery_time_sec": 4.74,
+              "victim_state_after": "running restarts=3",
+              "alerts": [],
+              "rep": 3
+            },
+            {
+              "total": 450,
+              "success": 450,
+              "failed": 0,
+              "error_rate_pct": 0.0,
+              "availability_pct": 100.0,
+              "latency_avg_ms": 24.0,
+              "latency_p95_ms": 22.8,
+              "latency_max_ms": 1099.9,
+              "status_codes": {
+                "200": 450
+              },
+              "crash_output": "",
+              "failure_window": {
+                "total": 45,
+                "success": 45,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 157.4,
+                "latency_p95_ms": 1089.2,
+                "latency_max_ms": 1099.9,
+                "status_codes": {
+                  "200": 45
+                }
+              },
+              "detection_time_sec": 1.12,
+              "recovery_time_sec": 4.54,
+              "victim_state_after": "running restarts=4",
+              "alerts": [],
+              "rep": 4
+            },
+            {
+              "total": 450,
+              "success": 450,
+              "failed": 0,
+              "error_rate_pct": 0.0,
+              "availability_pct": 100.0,
+              "latency_avg_ms": 23.2,
+              "latency_p95_ms": 21.5,
+              "latency_max_ms": 1095.8,
+              "status_codes": {
+                "200": 450
+              },
+              "crash_output": "",
+              "failure_window": {
+                "total": 45,
+                "success": 45,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 152.5,
+                "latency_p95_ms": 1078.5,
+                "latency_max_ms": 1095.8,
+                "status_codes": {
+                  "200": 45
+                }
+              },
+              "detection_time_sec": 1.14,
+              "recovery_time_sec": 4.68,
+              "victim_state_after": "running restarts=5",
+              "alerts": [],
+              "rep": 5
+            }
+          ]
+        }
+      }
+    },
+    "E2": {
+      "title": "Dependency timeout (database frozen)",
+      "targets": {
+        "midterm": {
+          "repetitions": 3,
+          "runs": [
+            {
+              "total": 525,
+              "success": 522,
+              "failed": 3,
+              "error_rate_pct": 0.57,
+              "availability_pct": 99.43,
+              "latency_avg_ms": 403.8,
+              "latency_p95_ms": 2014.4,
+              "latency_max_ms": 5032.6,
+              "status_codes": {
+                "200": 522,
+                "0": 3
+              },
+              "during_fault": {
+                "total": 225,
+                "success": 222,
+                "failed": 3,
+                "error_rate_pct": 1.33,
+                "availability_pct": 98.67,
+                "latency_avg_ms": 929.1,
+                "latency_p95_ms": 2024.0,
+                "latency_max_ms": 5032.6,
+                "status_codes": {
+                  "200": 222,
+                  "0": 3
+                }
+              },
+              "degraded_responses": 220,
+              "real_data_during_fault_pct": 0.89,
+              "first_degraded_after_sec": 0.27,
+              "first_fresh_after_resume_sec": 4.95,
+              "recovery_after_resume_sec": 8.62,
+              "breaker_state_during_fault": null,
+              "payment_during_fault": {
+                "status": 503,
+                "seconds": 2.02
+              },
+              "payments_in_db_after": "0",
+              "degraded_sample": "{\"data\":\"Cached transcript preview (Database temporarily unavailable)\",\"server_id\":\"replica-1\",\"status\":\"degraded_mode\"}\n",
+              "rep": 1
+            },
+            {
+              "total": 525,
+              "success": 523,
+              "failed": 2,
+              "error_rate_pct": 0.38,
+              "availability_pct": 99.62,
+              "latency_avg_ms": 512.3,
+              "latency_p95_ms": 2021.0,
+              "latency_max_ms": 5005.9,
+              "status_codes": {
+                "200": 523,
+                "0": 2
+              },
+              "during_fault": {
+                "total": 225,
+                "success": 223,
+                "failed": 2,
+                "error_rate_pct": 0.89,
+                "availability_pct": 99.11,
+                "latency_avg_ms": 1182.4,
+                "latency_p95_ms": 2023.6,
+                "latency_max_ms": 5005.9,
+                "status_codes": {
+                  "200": 223,
+                  "0": 2
+                }
+              },
+              "degraded_responses": 221,
+              "real_data_during_fault_pct": 0.89,
+              "first_degraded_after_sec": 0.29,
+              "first_fresh_after_resume_sec": 8.82,
+              "recovery_after_resume_sec": 8.76,
+              "breaker_state_during_fault": null,
+              "payment_during_fault": {
+                "status": 503,
+                "seconds": 2.03
+              },
+              "payments_in_db_after": "0",
+              "degraded_sample": "{\"data\":\"Cached transcript preview (Database temporarily unavailable)\",\"server_id\":\"replica-2\",\"status\":\"degraded_mode\"}\n",
+              "rep": 2
+            },
+            {
+              "total": 525,
+              "success": 523,
+              "failed": 2,
+              "error_rate_pct": 0.38,
+              "availability_pct": 99.62,
+              "latency_avg_ms": 500.9,
+              "latency_p95_ms": 2021.0,
+              "latency_max_ms": 5016.0,
+              "status_codes": {
+                "200": 523,
+                "0": 2
+              },
+              "during_fault": {
+                "total": 225,
+                "success": 223,
+                "failed": 2,
+                "error_rate_pct": 0.89,
+                "availability_pct": 99.11,
+                "latency_avg_ms": 1155.7,
+                "latency_p95_ms": 2023.6,
+                "latency_max_ms": 5016.0,
+                "status_codes": {
+                  "200": 223,
+                  "0": 2
+                }
+              },
+              "degraded_responses": 220,
+              "real_data_during_fault_pct": 1.33,
+              "first_degraded_after_sec": 0.39,
+              "first_fresh_after_resume_sec": 8.66,
+              "recovery_after_resume_sec": 8.73,
+              "breaker_state_during_fault": null,
+              "payment_during_fault": {
+                "status": 503,
+                "seconds": 2.01
+              },
+              "payments_in_db_after": "0",
+              "degraded_sample": "{\"data\":\"Cached transcript preview (Database temporarily unavailable)\",\"server_id\":\"replica-1\",\"status\":\"degraded_mode\"}\n",
+              "rep": 3
+            }
+          ]
+        },
+        "endterm": {
+          "repetitions": 3,
+          "runs": [
+            {
+              "total": 525,
+              "success": 525,
+              "failed": 0,
+              "error_rate_pct": 0.0,
+              "availability_pct": 100.0,
+              "latency_avg_ms": 124.7,
+              "latency_p95_ms": 1508.0,
+              "latency_max_ms": 1539.0,
+              "status_codes": {
+                "200": 525
+              },
+              "during_fault": {
+                "total": 225,
+                "success": 225,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 272.1,
+                "latency_p95_ms": 1515.5,
+                "latency_max_ms": 1539.0,
+                "status_codes": {
+                  "200": 225
+                }
+              },
+              "degraded_responses": 220,
+              "real_data_during_fault_pct": 100.0,
+              "first_degraded_after_sec": 0.18,
+              "first_fresh_after_resume_sec": 5.05,
+              "recovery_after_resume_sec": 4.98,
+              "breaker_state_during_fault": 2.0,
+              "payment_during_fault": {
+                "status": 503,
+                "seconds": 1.51
+              },
+              "payments_in_db_after": "0",
+              "degraded_sample": "{\"student_id\":1,\"gpa\":3.85,\"credits\":128,\"details\":{\"honors\":\"Dean List\",\"courses_completed\":[\"Data Structures\",\"Fault Tolerance\",\"Distributed Systems\"]},\"status\":\"DEGRADED_CACHED_MODE\",\"served_by\":\"a",
+              "rep": 1
+            },
+            {
+              "total": 525,
+              "success": 525,
+              "failed": 0,
+              "error_rate_pct": 0.0,
+              "availability_pct": 100.0,
+              "latency_avg_ms": 124.0,
+              "latency_p95_ms": 1507.6,
+              "latency_max_ms": 1526.8,
+              "status_codes": {
+                "200": 525
+              },
+              "during_fault": {
+                "total": 225,
+                "success": 225,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 275.1,
+                "latency_p95_ms": 1519.2,
+                "latency_max_ms": 1526.8,
+                "status_codes": {
+                  "200": 225
+                }
+              },
+              "degraded_responses": 222,
+              "real_data_during_fault_pct": 100.0,
+              "first_degraded_after_sec": 0.12,
+              "first_fresh_after_resume_sec": 4.99,
+              "recovery_after_resume_sec": 4.93,
+              "breaker_state_during_fault": 2.0,
+              "payment_during_fault": {
+                "status": 503,
+                "seconds": 1.53
+              },
+              "payments_in_db_after": "0",
+              "degraded_sample": "{\"student_id\":1,\"gpa\":3.85,\"credits\":128,\"details\":{\"honors\":\"Dean List\",\"courses_completed\":[\"Data Structures\",\"Fault Tolerance\",\"Distributed Systems\"]},\"status\":\"DEGRADED_CACHED_MODE\",\"served_by\":\"a",
+              "rep": 2
+            },
+            {
+              "total": 525,
+              "success": 525,
+              "failed": 0,
+              "error_rate_pct": 0.0,
+              "availability_pct": 100.0,
+              "latency_avg_ms": 124.9,
+              "latency_p95_ms": 1508.0,
+              "latency_max_ms": 1524.2,
+              "status_codes": {
+                "200": 525
+              },
+              "during_fault": {
+                "total": 225,
+                "success": 225,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 271.7,
+                "latency_p95_ms": 1517.0,
+                "latency_max_ms": 1524.2,
+                "status_codes": {
+                  "200": 225
+                }
+              },
+              "degraded_responses": 222,
+              "real_data_during_fault_pct": 100.0,
+              "first_degraded_after_sec": 0.1,
+              "first_fresh_after_resume_sec": 4.98,
+              "recovery_after_resume_sec": 5.2,
+              "breaker_state_during_fault": 2.0,
+              "payment_during_fault": {
+                "status": 503,
+                "seconds": 1.51
+              },
+              "payments_in_db_after": "0",
+              "degraded_sample": "{\"student_id\":1,\"gpa\":3.85,\"credits\":128,\"details\":{\"honors\":\"Dean List\",\"courses_completed\":[\"Data Structures\",\"Fault Tolerance\",\"Distributed Systems\"]},\"status\":\"DEGRADED_CACHED_MODE\",\"served_by\":\"a",
+              "rep": 3
+            }
+          ]
+        }
+      }
+    },
+    "E3": {
+      "title": "Load spike",
+      "targets": {
+        "midterm": {
+          "repetitions": 3,
+          "runs": [
+            {
+              "total": 6400,
+              "success": 6400,
+              "failed": 0,
+              "error_rate_pct": 0.0,
+              "availability_pct": 100.0,
+              "latency_avg_ms": 8.9,
+              "latency_p95_ms": 26.4,
+              "latency_max_ms": 77.8,
+              "status_codes": {
+                "200": 6400
+              },
+              "spike": {
+                "total": 6000,
+                "success": 6000,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 8.6,
+                "latency_p95_ms": 26.2,
+                "latency_max_ms": 77.8,
+                "status_codes": {
+                  "200": 6000
+                },
+                "achieved_rps": 300.0
+              },
+              "payments_acknowledged": 640,
+              "payments_in_db": "640",
+              "duplicate_payments": "0",
+              "resources_during_spike": [
+                "midterm-app-replica-2-1 cpu=42.60% mem=8.215MiB / 7.66GiB",
+                "midterm-app-replica-1-1 cpu=35.62% mem=8.164MiB / 7.66GiB",
+                "midterm-nginx-lb-1 cpu=11.16% mem=3.566MiB / 7.66GiB",
+                "midterm-db-1 cpu=107.66% mem=40.53MiB / 7.66GiB"
+              ],
+              "rep": 1
+            },
+            {
+              "total": 6400,
+              "success": 6400,
+              "failed": 0,
+              "error_rate_pct": 0.0,
+              "availability_pct": 100.0,
+              "latency_avg_ms": 12.8,
+              "latency_p95_ms": 32.3,
+              "latency_max_ms": 565.3,
+              "status_codes": {
+                "200": 6400
+              },
+              "spike": {
+                "total": 5999,
+                "success": 5999,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 12.8,
+                "latency_p95_ms": 32.3,
+                "latency_max_ms": 565.3,
+                "status_codes": {
+                  "200": 5999
+                },
+                "achieved_rps": 299.9
+              },
+              "payments_acknowledged": 640,
+              "payments_in_db": "640",
+              "duplicate_payments": "0",
+              "resources_during_spike": [
+                "midterm-app-replica-2-1 cpu=38.54% mem=8.543MiB / 7.66GiB",
+                "midterm-app-replica-1-1 cpu=43.58% mem=7.844MiB / 7.66GiB",
+                "midterm-nginx-lb-1 cpu=10.17% mem=3.48MiB / 7.66GiB",
+                "midterm-db-1 cpu=119.87% mem=40.85MiB / 7.66GiB"
+              ],
+              "rep": 2
+            },
+            {
+              "total": 6400,
+              "success": 6400,
+              "failed": 0,
+              "error_rate_pct": 0.0,
+              "availability_pct": 100.0,
+              "latency_avg_ms": 79.1,
+              "latency_p95_ms": 616.9,
+              "latency_max_ms": 1416.1,
+              "status_codes": {
+                "200": 6400
+              },
+              "spike": {
+                "total": 5999,
+                "success": 5999,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 83.4,
+                "latency_p95_ms": 637.1,
+                "latency_max_ms": 1416.1,
+                "status_codes": {
+                  "200": 5999
+                },
+                "achieved_rps": 299.9
+              },
+              "payments_acknowledged": 640,
+              "payments_in_db": "640",
+              "duplicate_payments": "0",
+              "resources_during_spike": [
+                "midterm-app-replica-2-1 cpu=101.88% mem=10.01MiB / 7.66GiB",
+                "midterm-app-replica-1-1 cpu=97.56% mem=9.637MiB / 7.66GiB",
+                "midterm-nginx-lb-1 cpu=14.14% mem=5MiB / 7.66GiB",
+                "midterm-db-1 cpu=418.01% mem=107.4MiB / 7.66GiB"
+              ],
+              "rep": 3
+            }
+          ]
+        },
+        "endterm": {
+          "repetitions": 3,
+          "runs": [
+            {
+              "total": 6400,
+              "success": 6400,
+              "failed": 0,
+              "error_rate_pct": 0.0,
+              "availability_pct": 100.0,
+              "latency_avg_ms": 6.8,
+              "latency_p95_ms": 15.4,
+              "latency_max_ms": 61.6,
+              "status_codes": {
+                "201": 640,
+                "200": 5760
+              },
+              "spike": {
+                "total": 6000,
+                "success": 6000,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 6.6,
+                "latency_p95_ms": 14.6,
+                "latency_max_ms": 61.6,
+                "status_codes": {
+                  "200": 5400,
+                  "201": 600
+                },
+                "achieved_rps": 300.0
+              },
+              "payments_acknowledged": 640,
+              "payments_in_db": "640",
+              "duplicate_payments": "0",
+              "resources_during_spike": [
+                "api-gateway cpu=33.92% mem=12.64MiB / 7.66GiB",
+                "uis-grafana cpu=0.06% mem=46.07MiB / 7.66GiB",
+                "student-service-1 cpu=0.14% mem=11.53MiB / 7.66GiB",
+                "academic-service-1 cpu=14.50% mem=8.656MiB / 7.66GiB",
+                "student-service-2 cpu=4.45% mem=9.895MiB / 7.66GiB",
+                "payment-service-2 cpu=10.34% mem=11.37MiB / 7.66GiB",
+                "payment-service-1 cpu=6.20% mem=9.504MiB / 7.66GiB",
+                "academic-service-2 cpu=18.00% mem=8.477MiB / 7.66GiB",
+                "uis-postgres-db cpu=29.22% mem=38.4MiB / 7.66GiB",
+                "uis-prometheus cpu=1.91% mem=41.67MiB / 7.66GiB"
+              ],
+              "rep": 1
+            },
+            {
+              "total": 6400,
+              "success": 6400,
+              "failed": 0,
+              "error_rate_pct": 0.0,
+              "availability_pct": 100.0,
+              "latency_avg_ms": 6.0,
+              "latency_p95_ms": 13.9,
+              "latency_max_ms": 42.9,
+              "status_codes": {
+                "201": 640,
+                "200": 5760
+              },
+              "spike": {
+                "total": 5997,
+                "success": 5997,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 5.8,
+                "latency_p95_ms": 12.9,
+                "latency_max_ms": 42.9,
+                "status_codes": {
+                  "200": 5397,
+                  "201": 600
+                },
+                "achieved_rps": 299.9
+              },
+              "payments_acknowledged": 640,
+              "payments_in_db": "640",
+              "duplicate_payments": "0",
+              "resources_during_spike": [
+                "api-gateway cpu=38.72% mem=14.2MiB / 7.66GiB",
+                "uis-grafana cpu=0.17% mem=46.12MiB / 7.66GiB",
+                "student-service-1 cpu=5.73% mem=10.36MiB / 7.66GiB",
+                "academic-service-1 cpu=17.13% mem=8.949MiB / 7.66GiB",
+                "student-service-2 cpu=3.99% mem=11.82MiB / 7.66GiB",
+                "payment-service-2 cpu=10.65% mem=11.11MiB / 7.66GiB",
+                "payment-service-1 cpu=12.11% mem=7.941MiB / 7.66GiB",
+                "academic-service-2 cpu=22.03% mem=8.516MiB / 7.66GiB",
+                "uis-postgres-db cpu=26.71% mem=38.69MiB / 7.66GiB",
+                "uis-prometheus cpu=0.60% mem=41.93MiB / 7.66GiB"
+              ],
+              "rep": 2
+            },
+            {
+              "total": 6400,
+              "success": 6400,
+              "failed": 0,
+              "error_rate_pct": 0.0,
+              "availability_pct": 100.0,
+              "latency_avg_ms": 5.9,
+              "latency_p95_ms": 13.8,
+              "latency_max_ms": 39.4,
+              "status_codes": {
+                "201": 640,
+                "200": 5760
+              },
+              "spike": {
+                "total": 5998,
+                "success": 5998,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 5.5,
+                "latency_p95_ms": 12.7,
+                "latency_max_ms": 32.0,
+                "status_codes": {
+                  "200": 5399,
+                  "201": 599
+                },
+                "achieved_rps": 299.9
+              },
+              "payments_acknowledged": 640,
+              "payments_in_db": "640",
+              "duplicate_payments": "0",
+              "resources_during_spike": [
+                "api-gateway cpu=49.72% mem=13.86MiB / 7.66GiB",
+                "uis-grafana cpu=0.05% mem=46.12MiB / 7.66GiB",
+                "student-service-1 cpu=0.30% mem=11.64MiB / 7.66GiB",
+                "academic-service-1 cpu=20.41% mem=8.621MiB / 7.66GiB",
+                "student-service-2 cpu=0.77% mem=10.34MiB / 7.66GiB",
+                "payment-service-2 cpu=8.47% mem=8.98MiB / 7.66GiB",
+                "payment-service-1 cpu=7.91% mem=9.359MiB / 7.66GiB",
+                "academic-service-2 cpu=17.74% mem=8.707MiB / 7.66GiB",
+                "uis-postgres-db cpu=31.97% mem=38.73MiB / 7.66GiB",
+                "uis-prometheus cpu=1.64% mem=42.32MiB / 7.66GiB"
+              ],
+              "rep": 3
+            }
+          ]
+        }
+      }
+    },
+    "E5": {
+      "title": "Unauthorized access",
+      "targets": {
+        "midterm": {
+          "repetitions": 3,
+          "runs": [
+            {
+              "cases": [
+                {
+                  "case": "transcript without token",
+                  "status": 200,
+                  "expected": 401,
+                  "denied": false,
+                  "passed": false,
+                  "data_exposed": true
+                },
+                {
+                  "case": "payment without token",
+                  "status": 200,
+                  "expected": 401,
+                  "denied": false,
+                  "passed": false,
+                  "data_exposed": false
+                },
+                {
+                  "case": "server-side request forgery via /external",
+                  "status": 200,
+                  "expected": 403,
+                  "denied": false,
+                  "passed": false,
+                  "data_exposed": true
+                }
+              ],
+              "denied": 0,
+              "total": 3,
+              "data_unchanged": false,
+              "audit_events_gateway": null,
+              "rep": 1
+            },
+            {
+              "cases": [
+                {
+                  "case": "transcript without token",
+                  "status": 200,
+                  "expected": 401,
+                  "denied": false,
+                  "passed": false,
+                  "data_exposed": true
+                },
+                {
+                  "case": "payment without token",
+                  "status": 200,
+                  "expected": 401,
+                  "denied": false,
+                  "passed": false,
+                  "data_exposed": false
+                },
+                {
+                  "case": "server-side request forgery via /external",
+                  "status": 200,
+                  "expected": 403,
+                  "denied": false,
+                  "passed": false,
+                  "data_exposed": true
+                }
+              ],
+              "denied": 0,
+              "total": 3,
+              "data_unchanged": false,
+              "audit_events_gateway": null,
+              "rep": 2
+            },
+            {
+              "cases": [
+                {
+                  "case": "transcript without token",
+                  "status": 200,
+                  "expected": 401,
+                  "denied": false,
+                  "passed": false,
+                  "data_exposed": true
+                },
+                {
+                  "case": "payment without token",
+                  "status": 200,
+                  "expected": 401,
+                  "denied": false,
+                  "passed": false,
+                  "data_exposed": false
+                },
+                {
+                  "case": "server-side request forgery via /external",
+                  "status": 200,
+                  "expected": 403,
+                  "denied": false,
+                  "passed": false,
+                  "data_exposed": true
+                }
+              ],
+              "denied": 0,
+              "total": 3,
+              "data_unchanged": false,
+              "audit_events_gateway": null,
+              "rep": 3
+            }
+          ]
+        },
+        "endterm": {
+          "repetitions": 3,
+          "runs": [
+            {
+              "cases": [
+                {
+                  "case": "transcript without token",
+                  "status": 401,
+                  "expected": 401,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "payment without token",
+                  "status": 401,
+                  "expected": 401,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "tampered signature",
+                  "status": 401,
+                  "expected": 401,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "alg=none forged Admin token",
+                  "status": 401,
+                  "expected": 401,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "role changed inside token",
+                  "status": 401,
+                  "expected": 401,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "student lists all students",
+                  "status": 403,
+                  "expected": 403,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "student reads other transcript",
+                  "status": 403,
+                  "expected": 403,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "student reads other profile",
+                  "status": 403,
+                  "expected": 403,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "student pays for other student",
+                  "status": 403,
+                  "expected": 403,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "forged identity headers",
+                  "status": 403,
+                  "expected": 403,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "login with bad credentials",
+                  "status": 401,
+                  "expected": 401,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "client requests Admin role at login",
+                  "status": 200,
+                  "expected": 200,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                }
+              ],
+              "denied": 12,
+              "total": 12,
+              "data_unchanged": true,
+              "audit_events_gateway": 8.0,
+              "rep": 1
+            },
+            {
+              "cases": [
+                {
+                  "case": "transcript without token",
+                  "status": 401,
+                  "expected": 401,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "payment without token",
+                  "status": 401,
+                  "expected": 401,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "tampered signature",
+                  "status": 401,
+                  "expected": 401,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "alg=none forged Admin token",
+                  "status": 401,
+                  "expected": 401,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "role changed inside token",
+                  "status": 401,
+                  "expected": 401,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "student lists all students",
+                  "status": 403,
+                  "expected": 403,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "student reads other transcript",
+                  "status": 403,
+                  "expected": 403,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "student reads other profile",
+                  "status": 403,
+                  "expected": 403,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "student pays for other student",
+                  "status": 403,
+                  "expected": 403,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "forged identity headers",
+                  "status": 403,
+                  "expected": 403,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "login with bad credentials",
+                  "status": 401,
+                  "expected": 401,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "client requests Admin role at login",
+                  "status": 200,
+                  "expected": 200,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                }
+              ],
+              "denied": 12,
+              "total": 12,
+              "data_unchanged": true,
+              "audit_events_gateway": 8.0,
+              "rep": 2
+            },
+            {
+              "cases": [
+                {
+                  "case": "transcript without token",
+                  "status": 401,
+                  "expected": 401,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "payment without token",
+                  "status": 401,
+                  "expected": 401,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "tampered signature",
+                  "status": 401,
+                  "expected": 401,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "alg=none forged Admin token",
+                  "status": 401,
+                  "expected": 401,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "role changed inside token",
+                  "status": 401,
+                  "expected": 401,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "student lists all students",
+                  "status": 403,
+                  "expected": 403,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "student reads other transcript",
+                  "status": 403,
+                  "expected": 403,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "student reads other profile",
+                  "status": 403,
+                  "expected": 403,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "student pays for other student",
+                  "status": 403,
+                  "expected": 403,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "forged identity headers",
+                  "status": 403,
+                  "expected": 403,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "login with bad credentials",
+                  "status": 401,
+                  "expected": 401,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                },
+                {
+                  "case": "client requests Admin role at login",
+                  "status": 200,
+                  "expected": 200,
+                  "denied": true,
+                  "passed": true,
+                  "data_exposed": false
+                }
+              ],
+              "denied": 12,
+              "total": 12,
+              "data_unchanged": true,
+              "audit_events_gateway": 8.0,
+              "rep": 3
+            }
+          ]
+        }
+      }
+    },
+    "E6": {
+      "title": "Abusive and malformed requests",
+      "targets": {
+        "midterm": {
+          "repetitions": 3,
+          "runs": [
+            {
+              "malformed": [
+                {
+                  "case": "broken JSON",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "negative amount",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "zero amount",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "amount too large",
+                  "status": 500,
+                  "rejected": false,
+                  "server_error": true
+                },
+                {
+                  "case": "missing idempotency key",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "idempotency key 300 chars",
+                  "status": 500,
+                  "rejected": false,
+                  "server_error": true
+                },
+                {
+                  "case": "SQL injection in key field",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "body of 2 MB",
+                  "status": 413,
+                  "rejected": true,
+                  "server_error": false
+                }
+              ],
+              "malformed_rejected": 6,
+              "malformed_total": 8,
+              "server_errors": 2,
+              "burst": {
+                "total": 300,
+                "success": 300,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 42.7,
+                "latency_p95_ms": 158.6,
+                "latency_max_ms": 219.6,
+                "status_codes": {
+                  "200": 300
+                }
+              },
+              "burst_with_spoofed_xff": {
+                "total": 300,
+                "success": 300,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 12.4,
+                "latency_p95_ms": 44.7,
+                "latency_max_ms": 83.7,
+                "status_codes": {
+                  "200": 300
+                }
+              },
+              "normal_request_after": 200,
+              "normal_latency_ms": 13.7,
+              "health_after": 200,
+              "data_unchanged": true,
+              "containers": [
+                "midterm-app-replica-2-1 Up 7 minutes",
+                "midterm-app-replica-1-1 Up 4 minutes",
+                "midterm-nginx-lb-1 Up 10 minutes",
+                "midterm-db-1 Up 10 minutes (healthy)"
+              ],
+              "rep": 1
+            },
+            {
+              "malformed": [
+                {
+                  "case": "broken JSON",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "negative amount",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "zero amount",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "amount too large",
+                  "status": 500,
+                  "rejected": false,
+                  "server_error": true
+                },
+                {
+                  "case": "missing idempotency key",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "idempotency key 300 chars",
+                  "status": 500,
+                  "rejected": false,
+                  "server_error": true
+                },
+                {
+                  "case": "SQL injection in key field",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "body of 2 MB",
+                  "status": 413,
+                  "rejected": true,
+                  "server_error": false
+                }
+              ],
+              "malformed_rejected": 6,
+              "malformed_total": 8,
+              "server_errors": 2,
+              "burst": {
+                "total": 300,
+                "success": 300,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 54.2,
+                "latency_p95_ms": 182.3,
+                "latency_max_ms": 217.7,
+                "status_codes": {
+                  "200": 300
+                }
+              },
+              "burst_with_spoofed_xff": {
+                "total": 300,
+                "success": 300,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 21.4,
+                "latency_p95_ms": 66.0,
+                "latency_max_ms": 126.8,
+                "status_codes": {
+                  "200": 300
+                }
+              },
+              "normal_request_after": 200,
+              "normal_latency_ms": 6.4,
+              "health_after": 200,
+              "data_unchanged": true,
+              "containers": [
+                "midterm-app-replica-2-1 Up 8 minutes",
+                "midterm-app-replica-1-1 Up 5 minutes",
+                "midterm-nginx-lb-1 Up 10 minutes",
+                "midterm-db-1 Up 11 minutes (healthy)"
+              ],
+              "rep": 2
+            },
+            {
+              "malformed": [
+                {
+                  "case": "broken JSON",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "negative amount",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "zero amount",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "amount too large",
+                  "status": 500,
+                  "rejected": false,
+                  "server_error": true
+                },
+                {
+                  "case": "missing idempotency key",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "idempotency key 300 chars",
+                  "status": 500,
+                  "rejected": false,
+                  "server_error": true
+                },
+                {
+                  "case": "SQL injection in key field",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "body of 2 MB",
+                  "status": 413,
+                  "rejected": true,
+                  "server_error": false
+                }
+              ],
+              "malformed_rejected": 6,
+              "malformed_total": 8,
+              "server_errors": 2,
+              "burst": {
+                "total": 300,
+                "success": 300,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 41.7,
+                "latency_p95_ms": 150.4,
+                "latency_max_ms": 220.8,
+                "status_codes": {
+                  "200": 300
+                }
+              },
+              "burst_with_spoofed_xff": {
+                "total": 300,
+                "success": 300,
+                "failed": 0,
+                "error_rate_pct": 0.0,
+                "availability_pct": 100.0,
+                "latency_avg_ms": 17.7,
+                "latency_p95_ms": 54.2,
+                "latency_max_ms": 115.2,
+                "status_codes": {
+                  "200": 300
+                }
+              },
+              "normal_request_after": 200,
+              "normal_latency_ms": 31.2,
+              "health_after": 200,
+              "data_unchanged": true,
+              "containers": [
+                "midterm-app-replica-2-1 Up 8 minutes",
+                "midterm-app-replica-1-1 Up 5 minutes",
+                "midterm-nginx-lb-1 Up 11 minutes",
+                "midterm-db-1 Up 11 minutes (healthy)"
+              ],
+              "rep": 3
+            }
+          ]
+        },
+        "endterm": {
+          "repetitions": 3,
+          "runs": [
+            {
+              "malformed": [
+                {
+                  "case": "broken JSON",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "negative amount",
+                  "status": 422,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "zero amount",
+                  "status": 422,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "amount too large",
+                  "status": 422,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "missing idempotency key",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "idempotency key 300 chars",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "SQL injection in key field",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "body of 2 MB",
+                  "status": 413,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "wrong type for student_id",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "unknown currency format",
+                  "status": 422,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "SQL injection in course id",
+                  "status": 422,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "non-numeric transcript id",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                }
+              ],
+              "malformed_rejected": 12,
+              "malformed_total": 12,
+              "server_errors": 0,
+              "burst": {
+                "total": 300,
+                "success": 55,
+                "failed": 245,
+                "error_rate_pct": 81.67,
+                "availability_pct": 18.33,
+                "latency_avg_ms": 19.7,
+                "latency_p95_ms": 54.8,
+                "latency_max_ms": 105.4,
+                "status_codes": {
+                  "200": 55,
+                  "429": 245
+                }
+              },
+              "burst_with_spoofed_xff": {
+                "total": 300,
+                "success": 55,
+                "failed": 245,
+                "error_rate_pct": 81.67,
+                "availability_pct": 18.33,
+                "latency_avg_ms": 9.2,
+                "latency_p95_ms": 29.7,
+                "latency_max_ms": 48.6,
+                "status_codes": {
+                  "200": 55,
+                  "429": 245
+                }
+              },
+              "normal_request_after": 200,
+              "normal_latency_ms": 16.0,
+              "health_after": 200,
+              "data_unchanged": true,
+              "containers": [
+                "api-gateway Up 13 minutes (healthy)",
+                "student-service-1 Up 21 minutes (healthy)",
+                "academic-service-1 Up 18 minutes (healthy)",
+                "student-service-2 Up 3 minutes (healthy)",
+                "payment-service-2 Up 2 minutes (healthy)",
+                "payment-service-1 Up 2 minutes (healthy)",
+                "academic-service-2 Up 21 minutes (healthy)",
+                "uis-postgres-db Up 21 minutes (healthy)"
+              ],
+              "rep": 1
+            },
+            {
+              "malformed": [
+                {
+                  "case": "broken JSON",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "negative amount",
+                  "status": 422,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "zero amount",
+                  "status": 422,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "amount too large",
+                  "status": 422,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "missing idempotency key",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "idempotency key 300 chars",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "SQL injection in key field",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "body of 2 MB",
+                  "status": 413,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "wrong type for student_id",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "unknown currency format",
+                  "status": 422,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "SQL injection in course id",
+                  "status": 422,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "non-numeric transcript id",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                }
+              ],
+              "malformed_rejected": 12,
+              "malformed_total": 12,
+              "server_errors": 0,
+              "burst": {
+                "total": 300,
+                "success": 56,
+                "failed": 244,
+                "error_rate_pct": 81.33,
+                "availability_pct": 18.67,
+                "latency_avg_ms": 19.9,
+                "latency_p95_ms": 57.9,
+                "latency_max_ms": 117.7,
+                "status_codes": {
+                  "200": 56,
+                  "429": 244
+                }
+              },
+              "burst_with_spoofed_xff": {
+                "total": 300,
+                "success": 53,
+                "failed": 247,
+                "error_rate_pct": 82.33,
+                "availability_pct": 17.67,
+                "latency_avg_ms": 6.9,
+                "latency_p95_ms": 13.6,
+                "latency_max_ms": 19.6,
+                "status_codes": {
+                  "200": 53,
+                  "429": 247
+                }
+              },
+              "normal_request_after": 200,
+              "normal_latency_ms": 9.0,
+              "health_after": 200,
+              "data_unchanged": true,
+              "containers": [
+                "api-gateway Up 14 minutes (healthy)",
+                "student-service-1 Up 21 minutes (healthy)",
+                "academic-service-1 Up 18 minutes (healthy)",
+                "student-service-2 Up 3 minutes (healthy)",
+                "payment-service-2 Up 3 minutes (healthy)",
+                "payment-service-1 Up 3 minutes (healthy)",
+                "academic-service-2 Up 21 minutes (healthy)",
+                "uis-postgres-db Up 21 minutes (healthy)"
+              ],
+              "rep": 2
+            },
+            {
+              "malformed": [
+                {
+                  "case": "broken JSON",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "negative amount",
+                  "status": 422,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "zero amount",
+                  "status": 422,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "amount too large",
+                  "status": 422,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "missing idempotency key",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "idempotency key 300 chars",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "SQL injection in key field",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "body of 2 MB",
+                  "status": 413,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "wrong type for student_id",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "unknown currency format",
+                  "status": 422,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "SQL injection in course id",
+                  "status": 422,
+                  "rejected": true,
+                  "server_error": false
+                },
+                {
+                  "case": "non-numeric transcript id",
+                  "status": 400,
+                  "rejected": true,
+                  "server_error": false
+                }
+              ],
+              "malformed_rejected": 12,
+              "malformed_total": 12,
+              "server_errors": 0,
+              "burst": {
+                "total": 300,
+                "success": 56,
+                "failed": 244,
+                "error_rate_pct": 81.33,
+                "availability_pct": 18.67,
+                "latency_avg_ms": 13.2,
+                "latency_p95_ms": 38.8,
+                "latency_max_ms": 68.2,
+                "status_codes": {
+                  "200": 56,
+                  "429": 244
+                }
+              },
+              "burst_with_spoofed_xff": {
+                "total": 300,
+                "success": 55,
+                "failed": 245,
+                "error_rate_pct": 81.67,
+                "availability_pct": 18.33,
+                "latency_avg_ms": 9.0,
+                "latency_p95_ms": 26.9,
+                "latency_max_ms": 62.7,
+                "status_codes": {
+                  "200": 55,
+                  "429": 245
+                }
+              },
+              "normal_request_after": 200,
+              "normal_latency_ms": 8.8,
+              "health_after": 200,
+              "data_unchanged": true,
+              "containers": [
+                "api-gateway Up 14 minutes (healthy)",
+                "student-service-1 Up 21 minutes (healthy)",
+                "academic-service-1 Up 19 minutes (healthy)",
+                "student-service-2 Up 4 minutes (healthy)",
+                "payment-service-2 Up 3 minutes (healthy)",
+                "payment-service-1 Up 3 minutes (healthy)",
+                "academic-service-2 Up 21 minutes (healthy)",
+                "uis-postgres-db Up 21 minutes (healthy)"
+              ],
+              "rep": 3
+            }
+          ]
+        }
+      }
+    },
+    "E7": {
+      "title": "Recovery and consistency",
+      "targets": {
+        "midterm": {
+          "repetitions": 5,
+          "runs": [
+            {
+              "payments_planned": 300,
+              "acknowledged": 300,
+              "rows_in_db": 300,
+              "distinct_in_db": 300,
+              "duplicate_rows": 0,
+              "lost_acknowledged": 0,
+              "not_acknowledged_but_stored": 0,
+              "http_attempts": 421,
+              "failed_attempts": 46,
+              "server_500": 45,
+              "failure_codes": {
+                "500": 45,
+                "502": 1
+              },
+              "crash_at_sec": 1.35,
+              "duration_sec": 2.99,
+              "orphan_payments_without_key": 0,
+              "victim_state_after": "exited restarts=0",
+              "rep": 1
+            },
+            {
+              "payments_planned": 300,
+              "acknowledged": 300,
+              "rows_in_db": 300,
+              "distinct_in_db": 300,
+              "duplicate_rows": 0,
+              "lost_acknowledged": 0,
+              "not_acknowledged_but_stored": 0,
+              "http_attempts": 428,
+              "failed_attempts": 53,
+              "server_500": 53,
+              "failure_codes": {
+                "500": 53
+              },
+              "crash_at_sec": 1.4,
+              "duration_sec": 3.27,
+              "orphan_payments_without_key": 0,
+              "victim_state_after": "exited restarts=0",
+              "rep": 2
+            },
+            {
+              "payments_planned": 300,
+              "acknowledged": 300,
+              "rows_in_db": 300,
+              "distinct_in_db": 300,
+              "duplicate_rows": 0,
+              "lost_acknowledged": 0,
+              "not_acknowledged_but_stored": 0,
+              "http_attempts": 419,
+              "failed_attempts": 44,
+              "server_500": 44,
+              "failure_codes": {
+                "500": 44
+              },
+              "crash_at_sec": 1.38,
+              "duration_sec": 3.09,
+              "orphan_payments_without_key": 0,
+              "victim_state_after": "exited restarts=0",
+              "rep": 3
+            },
+            {
+              "payments_planned": 300,
+              "acknowledged": 300,
+              "rows_in_db": 300,
+              "distinct_in_db": 300,
+              "duplicate_rows": 0,
+              "lost_acknowledged": 0,
+              "not_acknowledged_but_stored": 0,
+              "http_attempts": 419,
+              "failed_attempts": 44,
+              "server_500": 44,
+              "failure_codes": {
+                "500": 44
+              },
+              "crash_at_sec": 1.42,
+              "duration_sec": 3.14,
+              "orphan_payments_without_key": 0,
+              "victim_state_after": "exited restarts=0",
+              "rep": 4
+            },
+            {
+              "payments_planned": 300,
+              "acknowledged": 300,
+              "rows_in_db": 300,
+              "distinct_in_db": 300,
+              "duplicate_rows": 0,
+              "lost_acknowledged": 0,
+              "not_acknowledged_but_stored": 0,
+              "http_attempts": 415,
+              "failed_attempts": 40,
+              "server_500": 40,
+              "failure_codes": {
+                "500": 40
+              },
+              "crash_at_sec": 1.31,
+              "duration_sec": 2.95,
+              "orphan_payments_without_key": 0,
+              "victim_state_after": "exited restarts=0",
+              "rep": 5
+            }
+          ]
+        },
+        "endterm": {
+          "repetitions": 5,
+          "runs": [
+            {
+              "payments_planned": 300,
+              "acknowledged": 300,
+              "rows_in_db": 300,
+              "distinct_in_db": 300,
+              "duplicate_rows": 0,
+              "lost_acknowledged": 0,
+              "not_acknowledged_but_stored": 0,
+              "http_attempts": 376,
+              "failed_attempts": 1,
+              "server_500": 0,
+              "failure_codes": {
+                "502": 1
+              },
+              "crash_at_sec": 1.02,
+              "duration_sec": 1.77,
+              "orphan_payments_without_key": 0,
+              "victim_state_after": "running restarts=1",
+              "rep": 1
+            },
+            {
+              "payments_planned": 300,
+              "acknowledged": 300,
+              "rows_in_db": 300,
+              "distinct_in_db": 300,
+              "duplicate_rows": 0,
+              "lost_acknowledged": 0,
+              "not_acknowledged_but_stored": 0,
+              "http_attempts": 377,
+              "failed_attempts": 2,
+              "server_500": 0,
+              "failure_codes": {
+                "502": 2
+              },
+              "crash_at_sec": 1.0,
+              "duration_sec": 1.76,
+              "orphan_payments_without_key": 0,
+              "victim_state_after": "running restarts=2",
+              "rep": 2
+            },
+            {
+              "payments_planned": 300,
+              "acknowledged": 300,
+              "rows_in_db": 300,
+              "distinct_in_db": 300,
+              "duplicate_rows": 0,
+              "lost_acknowledged": 0,
+              "not_acknowledged_but_stored": 0,
+              "http_attempts": 378,
+              "failed_attempts": 3,
+              "server_500": 0,
+              "failure_codes": {
+                "502": 3
+              },
+              "crash_at_sec": 1.23,
+              "duration_sec": 2.13,
+              "orphan_payments_without_key": 0,
+              "victim_state_after": "running restarts=3",
+              "rep": 3
+            },
+            {
+              "payments_planned": 300,
+              "acknowledged": 300,
+              "rows_in_db": 300,
+              "distinct_in_db": 300,
+              "duplicate_rows": 0,
+              "lost_acknowledged": 0,
+              "not_acknowledged_but_stored": 0,
+              "http_attempts": 397,
+              "failed_attempts": 22,
+              "server_500": 0,
+              "failure_codes": {
+                "502": 21,
+                "504": 1
+              },
+              "crash_at_sec": 1.07,
+              "duration_sec": 5.66,
+              "orphan_payments_without_key": 0,
+              "victim_state_after": "running restarts=4",
+              "rep": 4
+            },
+            {
+              "payments_planned": 300,
+              "acknowledged": 300,
+              "rows_in_db": 300,
+              "distinct_in_db": 300,
+              "duplicate_rows": 0,
+              "lost_acknowledged": 0,
+              "not_acknowledged_but_stored": 0,
+              "http_attempts": 378,
+              "failed_attempts": 3,
+              "server_500": 0,
+              "failure_codes": {
+                "502": 3
+              },
+              "crash_at_sec": 0.92,
+              "duration_sec": 1.83,
+              "orphan_payments_without_key": 0,
+              "victim_state_after": "running restarts=5",
+              "rep": 5
+            }
+          ]
+        }
+      }
+    },
+    "E4": {
+      "title": "Monitoring and alert test",
+      "targets": {
+        "endterm": {
+          "repetitions": 3,
+          "runs": [
+            {
+              "scenarios": [
+                {
+                  "scenario": "quiet_period",
+                  "expected_alert": null,
+                  "fired": false,
+                  "detection_delay_sec": null,
+                  "all_alerts_seen": [],
+                  "extra_alerts": []
+                },
+                {
+                  "scenario": "instance_down",
+                  "expected_alert": "ServiceInstanceDown",
+                  "fired": true,
+                  "detection_delay_sec": 9.28,
+                  "all_alerts_seen": [
+                    "ServiceInstanceDown"
+                  ],
+                  "extra_alerts": []
+                },
+                {
+                  "scenario": "breaker_open",
+                  "expected_alert": "CircuitBreakerOpen",
+                  "fired": true,
+                  "detection_delay_sec": 7.7,
+                  "all_alerts_seen": [
+                    "CircuitBreakerOpen"
+                  ],
+                  "extra_alerts": []
+                },
+                {
+                  "scenario": "error_rate",
+                  "expected_alert": "HighErrorRate",
+                  "fired": true,
+                  "detection_delay_sec": 17.98,
+                  "all_alerts_seen": [
+                    "HighErrorRate",
+                    "HighRequestLatencyP95",
+                    "ServiceInstanceDown"
+                  ],
+                  "extra_alerts": [
+                    "HighRequestLatencyP95",
+                    "ServiceInstanceDown"
+                  ]
+                },
+                {
+                  "scenario": "latency",
+                  "expected_alert": "HighRequestLatencyP95",
+                  "fired": true,
+                  "detection_delay_sec": 21.01,
+                  "all_alerts_seen": [
+                    "HighRequestLatencyP95"
+                  ],
+                  "extra_alerts": []
+                },
+                {
+                  "scenario": "abuse",
+                  "expected_alert": "AbuseRateLimitTriggered",
+                  "fired": true,
+                  "detection_delay_sec": 20.5,
+                  "all_alerts_seen": [
+                    "AbuseRateLimitTriggered"
+                  ],
+                  "extra_alerts": []
+                }
+              ],
+              "rep": 1
+            },
+            {
+              "scenarios": [
+                {
+                  "scenario": "quiet_period",
+                  "expected_alert": null,
+                  "fired": false,
+                  "detection_delay_sec": null,
+                  "all_alerts_seen": [],
+                  "extra_alerts": []
+                },
+                {
+                  "scenario": "instance_down",
+                  "expected_alert": "ServiceInstanceDown",
+                  "fired": true,
+                  "detection_delay_sec": 10.1,
+                  "all_alerts_seen": [
+                    "ServiceInstanceDown"
+                  ],
+                  "extra_alerts": []
+                },
+                {
+                  "scenario": "breaker_open",
+                  "expected_alert": "CircuitBreakerOpen",
+                  "fired": true,
+                  "detection_delay_sec": 7.92,
+                  "all_alerts_seen": [
+                    "CircuitBreakerOpen"
+                  ],
+                  "extra_alerts": []
+                },
+                {
+                  "scenario": "error_rate",
+                  "expected_alert": "HighErrorRate",
+                  "fired": true,
+                  "detection_delay_sec": 17.75,
+                  "all_alerts_seen": [
+                    "HighErrorRate",
+                    "HighRequestLatencyP95",
+                    "ServiceInstanceDown"
+                  ],
+                  "extra_alerts": [
+                    "HighRequestLatencyP95",
+                    "ServiceInstanceDown"
+                  ]
+                },
+                {
+                  "scenario": "latency",
+                  "expected_alert": "HighRequestLatencyP95",
+                  "fired": true,
+                  "detection_delay_sec": 20.57,
+                  "all_alerts_seen": [
+                    "HighRequestLatencyP95"
+                  ],
+                  "extra_alerts": []
+                },
+                {
+                  "scenario": "abuse",
+                  "expected_alert": "AbuseRateLimitTriggered",
+                  "fired": true,
+                  "detection_delay_sec": 20.55,
+                  "all_alerts_seen": [
+                    "AbuseRateLimitTriggered"
+                  ],
+                  "extra_alerts": []
+                }
+              ],
+              "rep": 2
+            },
+            {
+              "scenarios": [
+                {
+                  "scenario": "quiet_period",
+                  "expected_alert": null,
+                  "fired": false,
+                  "detection_delay_sec": null,
+                  "all_alerts_seen": [],
+                  "extra_alerts": []
+                },
+                {
+                  "scenario": "instance_down",
+                  "expected_alert": "ServiceInstanceDown",
+                  "fired": true,
+                  "detection_delay_sec": 8.4,
+                  "all_alerts_seen": [
+                    "ServiceInstanceDown"
+                  ],
+                  "extra_alerts": []
+                },
+                {
+                  "scenario": "breaker_open",
+                  "expected_alert": "CircuitBreakerOpen",
+                  "fired": true,
+                  "detection_delay_sec": 6.06,
+                  "all_alerts_seen": [
+                    "CircuitBreakerOpen"
+                  ],
+                  "extra_alerts": []
+                },
+                {
+                  "scenario": "error_rate",
+                  "expected_alert": "HighErrorRate",
+                  "fired": true,
+                  "detection_delay_sec": 17.63,
+                  "all_alerts_seen": [
+                    "HighErrorRate",
+                    "HighRequestLatencyP95",
+                    "ServiceInstanceDown"
+                  ],
+                  "extra_alerts": [
+                    "HighRequestLatencyP95",
+                    "ServiceInstanceDown"
+                  ]
+                },
+                {
+                  "scenario": "latency",
+                  "expected_alert": "HighRequestLatencyP95",
+                  "fired": true,
+                  "detection_delay_sec": 20.8,
+                  "all_alerts_seen": [
+                    "HighRequestLatencyP95"
+                  ],
+                  "extra_alerts": []
+                },
+                {
+                  "scenario": "abuse",
+                  "expected_alert": "AbuseRateLimitTriggered",
+                  "fired": true,
+                  "detection_delay_sec": 20.66,
+                  "all_alerts_seen": [
+                    "AbuseRateLimitTriggered"
+                  ],
+                  "extra_alerts": []
+                }
+              ],
+              "rep": 3
+            }
+          ]
+        }
+      }
+    }
+  },
+  "environment": {
+    "date": "2026-11-05T18:23:32",
+    "host_os": "Windows-11-10.0.26200-SP0",
+    "cpu_count": 8,
+    "docker": "29.1.3",
+    "note": "All services, the database and the load generator share one Windows host running Docker Desktop.",
+    "baseline_commit": "871967a (github.com/papercontroller/midterm-ftr)"
+  }
+}
